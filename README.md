@@ -7,7 +7,7 @@
 - [ ] 花弁の接触部分の分離
 
 ## 環境構築
-docker上で、Ubuntu 20.04.2のイメージからコンテナを作成  
+* docker上で、Ubuntu 20.04.2のイメージからコンテナを作成  
 `docker run -v /disk024/usrs/naka:/workspace -itd -p 8030:8030 --name naka_flower_ct ubuntu:latest /bin/bash`
 
 * ライブラリのインストール 
@@ -24,6 +24,6 @@ apt-get install -y libgl1-mesa-dev libopencv-dev
 ```
 
 ## 初期設定
-adjacency_matrix/InputにCT画像を格納
+`adjacency_matrix/Input`にCT画像を格納
 
 ## ファイル説明
