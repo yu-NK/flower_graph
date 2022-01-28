@@ -3,7 +3,7 @@
 - [x] CT画像から得られたグラフ構造に対して、正規化スペクトラルクラスタリング
 - [x] 細線化画像を用いて、分岐点の検出と花弁の接触部分の除去
 - [x] 2次元画像上で花弁の接触部分以外をクラスタ統合
-- [ ] 3次元方向にクラスタ統合
+- [x] 3次元方向にクラスタ統合
 - [ ] 花弁の接触部分の分離
 
 ## 環境構築
@@ -43,6 +43,12 @@ adjacency_matrix
 |   ├── 3D_inte
 |   ├── junk_reserch
 │   ├── ...
+|
+├── dataset
+|   ├── annotation
+|   ├── anootation_NLMD
+|   ├── annotation_part
+│   └── test
 |
 └── reference
     ├── laplacian_matrix_ans.ipynb
